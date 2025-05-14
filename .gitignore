@@ -1,0 +1,10 @@
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore large data or model files
+*.csv
+*.h5
+*.pkl
+*.joblib
