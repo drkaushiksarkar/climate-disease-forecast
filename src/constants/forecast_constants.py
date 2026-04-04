@@ -1,0 +1,26 @@
+"""Forecast constants."""
+
+# Status codes
+FORECAST_STATUS_ACTIVE = "active"
+FORECAST_STATUS_INACTIVE = "inactive"
+FORECAST_STATUS_PENDING = "pending"
+FORECAST_STATUS_ERROR = "error"
+
+# Limits
+FORECAST_MAX_BATCH_SIZE = 1000
+FORECAST_DEFAULT_TIMEOUT = 30
+FORECAST_MAX_RETRIES = 3
+FORECAST_CACHE_TTL = 300
+
+# Field names
+FORECAST_FIELDS = [
+    "id", "name", "type", "status",
+    "metadata", "created_at", "updated_at",
+]
+
+ALL_STATUSES = [
+    FORECAST_STATUS_ACTIVE,
+    FORECAST_STATUS_INACTIVE,
+    FORECAST_STATUS_PENDING,
+    FORECAST_STATUS_ERROR,
+]
