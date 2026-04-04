@@ -1,10 +1,23 @@
-# Ignore virtual environments
-venv/
-.env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.env
 .venv/
-
-# Ignore large data or model files
-*.csv
-*.h5
-*.pkl
-*.joblib
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+*.log
+.DS_Store
+*.db
+*.sqlite3
